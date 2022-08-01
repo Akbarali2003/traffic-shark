@@ -1,0 +1,53 @@
+.payment{
+    &__package{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 86px;
+        padding-bottom: 82px;
+    }
+    &__title{
+        width: 1110px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 20px;
+        &-100{
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #2E9ADB;
+            display: inline-block;
+        }
+    }
+    &__discription{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #939393;
+    }
+    &__logos{
+        width: 910px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 78px;
+    }
+    &__logo{
+        opacity: 0.6;
+        transition: .5s;
+        cursor: pointer;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
