@@ -1,0 +1,261 @@
+.production{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    &__subtitle{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__advance{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 82px;
+        padding: 60px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 75px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2E9ADB;
+        margin-bottom: 20px;
+    }
+    &__discription{
+        width: 728px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #939393;
+    }
+    &__open-page{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 42px 0;
+        margin-top: 40px;
+    }
+    &__open-page-line{
+        width: 990px;
+        height: 1px;
+        border: none;
+        background-color: #D2D2D2;
+    }
+    &__open-page-icon{
+        width: 64px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        border-radius: 50%;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: .5s;
+        &:hover{
+            transform: rotate(-180deg);
+            box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.1);
+        }
+    }
+    &__open-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__publicity{
+        padding: 60px 0;
+        border-bottom: 1px dashed #D2D2D2;
+    }    
+    &__publicity-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__publicity-list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 30px;
+        margin-top: 60px;
+    }
+    &__publicity-item{
+        width: 174px;
+        height: 174px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+    }
+    &__publicity-item-text{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #939393;
+        margin-top: 21px;
+    }
+    &__status{
+        padding: 60px 0;
+        border-bottom: 1px dashed #D2D2D2;
+    }
+    &__status-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__status-list{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    
+    &__status-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+    
+    &__status-item-joom{
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+    }
+    &__status-item-joom-span{
+        width: 330px;
+        padding: 68px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &:nth-child(2){
+            border: 1px solid #EBEBEB;
+            border-bottom: none;
+            border-top: none;
+        }
+    }
+    &__status-item-joom-txt{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #939393;
+        margin-bottom: 20px;
+    }
+    &__status-item-joom-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    &__status-item-joom-price{
+        width: 270px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #2E9ADB;
+    }
+    &__status-item-imgblock{
+        height: 94px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        & p{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    &__advantage{
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+    &__advantage-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__advantage-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        row-gap: 20px;
+    }
+    &__advantage-item{
+        display: flex;
+        align-items: center;
+    }
+    &__advantage-checkmark{
+        width: 48px;
+        height: 48px;
+        margin-right: 20px;
+    }
+    &__advantage-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__btn{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;  
+        text-align: center;
+        text-transform: uppercase;
+        color: #2E9ADB;
+        padding: 28px 102px;
+        background: #FFFFFF;
+        border: 4px solid #2E9ADB;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: .5s;
+        &:hover{
+            background-color: #2E9ADB;
+            color: #fff;
+        }
+    }
+}

@@ -4,7 +4,7 @@ import { OffersImgSvg, TopImgSvg, DollorImgSvg } from '../../Assets/Images/index
 
 function Offers() {
     return (
-        <div className='offers'>
+        <section className='offers'>
             <div className="container">
                 <div className="offers__package">
                     <h2 className='offers__title'>мы всегда в топе!</h2>
@@ -25,7 +25,7 @@ function Offers() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

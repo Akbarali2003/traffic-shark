@@ -16,7 +16,7 @@ function Main() {
             <Offers />
             <Payment />
             <Settings />
-            <Logosection />
+            <Logosection logoTitle={'Нам доверяют'} />
             <Support />
         </main>
     )

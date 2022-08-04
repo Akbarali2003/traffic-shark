@@ -3,7 +3,7 @@ import './Settings.scss';
 import { DownloadImg, SettingsImg, ApkFile, PuzzleImg, CasionChip, Trophyimg } from '../../Assets/Images/index';
 function Settings() {
     return (
-        <div className='settings' >
+        <section className='settings' >
             <div className="container">
                 <div className="settings__wrap">
                     <h3 className='settings__title'>Топовые вертикали</h3>
@@ -41,7 +41,7 @@ function Settings() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -16,12 +16,12 @@ import Hill from '../../Assets/Images/Hill.svg';
 import Email from '../../Assets/Images/Email.svg';
 import Fonbet from '../../Assets/Images/Fonbet.svg';
 import AliExpress from '../../Assets/Images/AliExpress.svg';
-function Logosection() {
+function Logosection({ logoTitle }) {
     return (
-        <div className='logosection'>
+        <section className='logosection'>
             <div className="container">
                 <div className="logosection__wrapper">
-                    <h3 className='logosection__title'>Нам доверяют</h3>
+                    <h3 className='logosection__title'>{logoTitle}</h3>
                     <div className='logosection__partners'>
                         <div className='logosection__partner'>
                             <img src={Dostavista} alt='Dostavista' />
@@ -75,7 +75,7 @@ function Logosection() {
                     <p className='logosection__text'>и десятки других популярных компаний</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

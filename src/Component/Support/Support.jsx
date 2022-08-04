@@ -2,7 +2,7 @@ import React from 'react';
 import './Support.scss';
 function Support() {
     return (
-        <div className='support'>
+        <section className='support'>
             <div className="container">
                 <div className="support_package">
                     <h3 className='support__title'>Остались вопросы? Готовы ответить!</h3>
@@ -14,7 +14,7 @@ function Support() {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

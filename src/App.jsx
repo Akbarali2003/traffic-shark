@@ -1,17 +1,16 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.scss';
-import Footer from './Component/Footer/Footer';
-import Header from './Component/Header/Header';
-import Main from './Component/Main/Main';
+import AuthenticatedApp from './AuthenticatedApp';
+import UnauthenticatedApp from './UnauthenticatedApp';
+import useToken from './Hooks/useToken';
 
 function App() {
-    return (
-        <Fragment>
-            <Header />
-            <Main />
-            <Footer />
-        </Fragment>
-    );
+    const [token] = useToken();
+    if (token) {
+        return <AuthenticatedApp />;
+    } else {
+        return <UnauthenticatedApp />;
+    }
 }
 
 export default App;

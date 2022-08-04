@@ -3,7 +3,7 @@ import './Works.scss';
 import { ShieldImg, VideoPlayerImg, CallCenterImg, MoneyImg, DiamondImg, WalletImg } from '../../Assets/Images/index';
 function Works() {
     return (
-        <div className='works'>
+        <section className='works'>
             <div className="container">
                 <div className="works__pakage">
                     <h2 className='works__title'>Работать с нами это</h2>
@@ -36,7 +36,7 @@ function Works() {
                     <button className='works__register-btn'>Регистрация</button>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

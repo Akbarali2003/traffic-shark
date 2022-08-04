@@ -8,7 +8,7 @@ import BIcon from '../../Assets/Images/bicon.png';
 import TIcon from '../../Assets/Images/ticon.png';
 function Payment() {
     return (
-        <div className='payment'>
+        <section className='payment'>
             <div className="container">
                 <div className="payment__package">
                     <h2 className='payment__title'>Еженедельные выплаты <p className='payment__title-100'>от $100</p></h2>
@@ -23,7 +23,7 @@ function Payment() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

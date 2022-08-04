@@ -13,12 +13,13 @@
         display: flex;
         align-items: center;
         margin-left: auto;
+        position: relative;
     }
     &__item{
-        padding: 33px 0 31px 0  ;
-        margin-right: 50px;
-        &:last-child{
-            margin-right: 0;
+        border-top: 5px solid;
+        padding: 33px 0 31px 0 ;
+        &:nth-child(1){
+            margin-right: 50px;
         }
     }
     &__webmaster{
@@ -79,6 +80,7 @@
         border: 1px solid #EBEBEB;
         border-radius: 14px;
         cursor: pointer;
+        position: relative;
     }
     &__lang-ru{
         width: 35px;
@@ -86,18 +88,52 @@
         font-weight: 700;
         font-size: 11px;
         line-height: 13px;
-        color: #FFFFFF;
+        color: #919191;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #4EAAE0;
         border-radius: 14px;        
+        z-index: 1;
     }
     &__lang-en{
         width: 35px;
         height: 28px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #919191;
         display: flex;
         align-items: center;
         justify-content: center; 
+        z-index: 1;
+    }
+    &__languages .animation-ref{
+        width: 35px;
+        height: 28px;
+        position: absolute;
+        top: 0;
+        background: #4EAAE0;
+        border-radius: 14px;
+        z-index: 0;
+        transition: all .5s ease 0s;
+        display: inline-block;
+    }
+    .start-ru{
+        color: #fff;
+        left: 0;
+    }
+    .start-en{
+        color: #fff;
+        left: 28px;
+    }
+    .lang-color{
+        color: #fff;
+    }
+    .border{
+        border-top-color: #fff;
     }
 }

@@ -1,0 +1,50 @@
+.purchases  {
+    background-color: #0BA1DD;
+    margin-bottom: 80px;
+    &__package{
+        padding-top: 45px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        text-align: center;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    &__discription{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        margin-top: 80px;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__item-text{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+}

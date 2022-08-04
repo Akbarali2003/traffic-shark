@@ -1,0 +1,39 @@
+.participation{
+    margin-bottom: 80px;
+    &__package{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #939393;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2E9ADB;
+        margin-left: 5px;
+    }
+}
